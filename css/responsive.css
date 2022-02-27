@@ -1,0 +1,39 @@
+
+@media only screen and (max-widht:990px) {
+    .box {
+        margin: 0 0 30px;
+    }
+}
+@media only screen and (max-width: 882px){
+    .navbar-default {
+        background-color: #fff;
+        border-color: #e6e6e6;
+    }
+
+    .about-incity img {
+        width: 100%;
+    }
+
+    .homePage{
+        display: none;
+    }
+    
+    .header-text, .header-btns{
+        text-align: center;
+    }
+
+    .available-on{
+        text-align: center;
+    }
+
+    .contact-info-form::before{
+        top:-13px;
+        left:initial;
+        right:130px;
+    }
+    
+    
+}
+
+
+
